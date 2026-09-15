@@ -1,0 +1,372 @@
+body {
+    background-color:#beb69b  !important;  
+     font-family: 'Inter', sans-serif;
+    
+    
+}         
+.container{
+    align-items: center;
+    
+}
+
+/* .card-img-top{
+    height: 350px;
+    object-fit: initial;
+    width: 350px;
+   
+    
+}  */
+/* .col-md-4{
+    width: auto;
+    transition: transform 0.5s ease;
+    
+    
+}
+.col-md-4:hover{
+    transform: scale(1.05);
+} */
+
+.about-img{
+   display:block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.nav-item .nav-link 
+{ 
+    transition: color 0.3s ease; 
+    font-family: 'Poppins', sans-serif;
+}
+ .nav-item .nav-link:hover { 
+    color: #075eff !important;
+ }
+ .mb-3{
+    text-align: left;
+ }
+ .text-secondary{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+ }
+ .image-box { 
+    width: 100%; 
+    height: 400px;
+    overflow: hidden; 
+} 
+.container-service{
+    margin-left: 180px;
+}
+
+
+ .home-hero {
+    min-height: 350px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.60),
+            rgba(0, 0, 0, 0.60)
+        ),
+        url("../Image/main.jpg");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-hero-welcome {
+    color: white;
+     align-items: center;
+    animation: serviceHeroAnimation 1.2s ease-out;
+}
+
+.home-hero-welcome h1 {
+    font-size: 55px;
+    letter-spacing: 2px;    
+}
+
+.home-hero-welcome p {
+    font-size: 21px;
+}
+
+
+/* ================= SERVICE HERO ================= */
+
+.service-hero {
+    min-height: 350px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.60),
+            rgba(0, 0, 0, 0.60)
+        ),
+        url("../Image/main.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-hero-content {
+    color: white;
+
+    animation: serviceHeroAnimation 1.2s ease-out;
+}
+
+.service-hero-content h1 {
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
+.service-hero-content p {
+    font-size: 21px;
+}
+
+
+/* ================= SERVICE CARDS ================= */
+
+.service-card {
+    border: none;
+    border-radius: 12px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+/* ================= SERVICE ICON ================= */
+
+.service-icon {
+    width: 75px;
+    height: 75px;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #f1f5ff;
+
+    font-size: 35px;
+}
+
+
+/* ================= HERO ANIMATION ================= */
+
+@keyframes serviceHeroAnimation {
+
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+    .service-hero {
+        min-height: 300px;
+    }
+
+    .service-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .service-hero-content p {
+        font-size: 17px;
+    }
+
+}
+
+/* contact Hero section */
+.contact-hero {
+    min-height: 350px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.60),
+            rgba(0, 0, 0, 0.60)
+        ),
+        url("../Image/contact.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-hero-content {
+    color: white;
+
+    animation: serviceHeroAnimation 1.2s ease-out;
+}
+
+.contact-hero-content h1 {
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
+.contact-hero-content p {
+    font-size: 21px;
+}
+
+
+/* ================= SERVICE CARDS ================= */
+
+.contact-card {
+    border: none;
+    border-radius: 12px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-10px);
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+/* ================= SERVICE ICON ================= */
+
+.contact-icon {
+    width: 75px;
+    height: 75px;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #f1f5ff;
+
+    font-size: 35px;
+}
+
+
+/* ================= HERO ANIMATION ================= */
+
+@keyframes serviceHeroAnimation {
+
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+    .service-hero {
+        min-height: 300px;
+    }
+
+    .service-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .service-hero-content p {
+        font-size: 17px;
+    }
+
+}
+
+
+
+.col-md-6{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* .col-md-6:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+    border-color: #ffc107;
+} */
+.contact-card{
+    background-color: #111111;
+    border: 1px solid #a7a717 ;
+    color: #1f1d19;
+    
+}
+.contact-card h3
+.contact-card h4{
+    color: #111111;
+}
+.contact-card .text-muted{
+    color:#ffffff !important;
+}
+.h-text{
+    color: #ffffff;
+}
+.h-center{
+    color: #111111;
+}
+.form-label {
+    color: #ffffff !important;
+}
+
+.form-control,
+.form-control:focus {
+    background-color: #111111 !important;
+    color: #ffffff !important;
+}
+
+.form-control::placeholder {
+    color: #b6b3a9;
+    opacity: 1;
+}
+
+.service-card{
+    background-color: #111111;
+    color: #c7b26d;
+}
+.service-card h4,
+.service-card p,
+.service-card .service-icon
+{
+    color: #f3f0e6 !important;
+
+}
+.service-card .btn-outline-primary {
+    color: #f3f0e6;
+    border-color: #f3f0e6;
+}   
