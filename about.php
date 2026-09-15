@@ -62,8 +62,27 @@
         <div class="row text-center g-4">
             <div class="col-md-3">
                 <div class="p-3">
-                    <h3>100+</h3>
-                        
+                    <h3 class="fw-bold">100+</h3>
+                     <p class="h-cente mb-0">Employee</p>   
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <div class="p-3">
+                    <h3 class="fw-bold">250+</h3>
+                     <p class="h-cente mb-0">Project completed</p>   
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-3">
+                    <h3 class="fw-bold">150+</h3>
+                    <p class="h-cente mb-0">Happy Client</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-3">
+                    <h3 class="fw-bold">10+</h3>
+                    <p class="h-center mb-0">Year of Experience</p>    
                 </div>
             </div>
         </div>
