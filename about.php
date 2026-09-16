@@ -63,22 +63,22 @@
             <div class="col-md-3">
                 <div class="p-3">
                     <h3 class="fw-bold">100+</h3>
-                     <p class="h-cente mb-0">Employee</p>   
+                     <p class="h-center mb-0">Employee</p>   
                 </div>
             </div>
             
             <div class="col-md-3">
                 <div class="p-3">
                     <h3 class="fw-bold">250+</h3>
-                     <p class="h-cente mb-0">Project completed</p>   
+                     <p class="h-center mb-0">Project completed</p>   
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="p-3">
                     <h3 class="fw-bold">150+</h3>
-                    <p class="h-cente mb-0">Happy Client</p>
+                    <p class="h-center mb-0">Happy Clients</p>
                 </div>
-            </div>
+            </div>  
             <div class="col-md-3">
                 <div class="p-3">
                     <h3 class="fw-bold">10+</h3>
